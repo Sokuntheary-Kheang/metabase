@@ -16,7 +16,7 @@ jobs:
         uses: docker/build-push-action@v1
         with:
           registry: ghcr.io
-          username: "Sokuntheary-Kheang"
+          username: "sokuntheary-kheang"
           password: ${{ secrets.GHCIO }}
           repository: Sokuntheary-Kheang/metabase
           tags: latest
